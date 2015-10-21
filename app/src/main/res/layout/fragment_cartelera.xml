@@ -6,10 +6,6 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <ViewPager
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/pager">
         <TextView
             android:textAlignment="center"
             android:gravity="center_vertical"
@@ -18,5 +14,4 @@
             android:text="Cartelera 1"
             android:textStyle="bold"
             android:textSize="40dp"/>
-    </ViewPager>
 </FrameLayout>

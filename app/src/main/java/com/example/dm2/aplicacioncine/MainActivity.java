@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity  implements Cartelera.OnFrag
     Toolbar appBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+    //http://www.hermosaprogramacion.com/2015/07/como-sincronizar-sqlite-con-mysql-en-android/
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
