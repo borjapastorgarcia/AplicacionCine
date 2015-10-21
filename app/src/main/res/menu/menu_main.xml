@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--checkableBehavior con valor “single“. Con esto indicamos que sólo pueda
+        seleccionarse una de estas tres opciones al mismo tiempo -->
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/ic_actual_movies"
+            android:title="Cartelera actual"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/ic_next_movies"
+            android:title="Proximas peliculas"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/ic_favourite"
+            android:title="Favoritas"/>
+        <item
+            android:id="@+id/menu_seccion_4"
+            android:icon="@drawable/ic_settings"
+            android:title="Ajustes"/>
+    </group>
+</menu>
